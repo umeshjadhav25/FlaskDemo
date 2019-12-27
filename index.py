@@ -10,4 +10,8 @@ def hello():
 def about():
     return render_template('about.html', name = "Umesh")
 
+@app.route('/bootstrap')
+def bootstrap():
+    return render_template('bootstrap.html')
+
 app.run(debug="True")
