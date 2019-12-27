@@ -10,4 +10,4 @@ def hello():
 def about():
     return render_template('about.html', name = "Umesh")
 
-app.run()
+app.run(debug="True")
